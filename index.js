@@ -5,7 +5,7 @@
  const mongoose = require("mongoose");
 
  const connectionString =
-     "mongodb+srv://labterminal:1234@cluster0.2ndfz.mongodb.net/LabTermainl?retryWrites=true&w=majority ";
+     "mongodb+srv://12345:12345@cluster0.uxxsa.mongodb.net/<dbname>?retryWrites=true&w=majority";
  mongoose.connect(connectionString, { useNewUrlParser: true });
 
  const loginSchema = {
